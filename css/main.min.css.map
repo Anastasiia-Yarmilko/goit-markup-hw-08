@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/base/_base.scss",
+        "../sass/components/_container.scss",
+        "../sass/components/_modal.scss",
+        "../sass/layout/_header.scss",
+        "../sass/layout/_hero.scss",
+        "../sass/layout/_main.scss",
+        "../sass/layout/_team.scss",
+        "../sass/layout/_clients.scss",
+        "../sass/layout/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}

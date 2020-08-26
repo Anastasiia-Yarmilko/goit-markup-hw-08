@@ -1,0 +1,16 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/portfolio.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/base/_base.scss",
+        "../sass/components/_container.scss",
+        "../sass/components/_modal.scss",
+        "../sass/layout/_header.scss",
+        "../sass/layout/_portfolio.scss",
+        "../sass/layout/_footer.scss"
+    ],
+    "names": [],
+    "file": "portfolio.min.css"
+}
