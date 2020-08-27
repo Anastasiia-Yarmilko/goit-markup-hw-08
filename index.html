@@ -8,61 +8,68 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
     <header class="header">
       <div class="container">
-        <nav class="navigation">
-          <a class="logo link" href="./index.html" lang="en"
-            ><span class="logo-blue-word link">Web</span> Studio</a
-          >
-          <ul class="navigation-list list">
-            <li class="navigation-list-item current-main">
-              <a class="navigation-list-link link" href="./index.html"
-                >Студия</a
-              >
-            </li>
-            <li class="navigation-list-item">
-              <a class="navigation-list-link link" href="./portfolio.html"
-                >Портфолио</a
-              >
-            </li>
-            <li class="navigation-list-item">
-              <a class="navigation-list-link link" href="">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="header-contacts">
-          <ul class="header-contacts-list list">
-            <li class="header-contacts-list-item">
-              <a class="header-mail link" href="mailto:info@devstudio.com">
-                <svg
-                  class="header-address-icons-svg"
-                  width="16px"
-                  height="11px"
+        <a class="logo link" href="./index.html" lang="en"
+          ><span class="logo-blue-word link">Web</span> Studio</a
+        >
+        <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+          <svg class="btn-icon" width="20px" height="20px">
+            <use class="icon-open" href="./images/sprite.svg#burger-icon-menu"></use>
+            <use class="icon-close" href="./images/sprite.svg#close-icon-menu"></use>
+          </svg>
+        </button>
+        <div class="menu-container" data-menu>
+          <nav class="navigation">
+            <ul class="navigation-list list">
+              <li class="navigation-list-item current-main">
+                <a class="navigation-list-link link" href="./index.html"
+                  >Студия</a
                 >
-                  <use href="./images/sprite.svg#icon-envelope"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
-            <li class="header-contacts-list-item">
-              <a class="header-phone link" href="tel:+380961111111">
-                <svg
-                  class="header-address-icons-svg"
-                  width="10px"
-                  height="15px"
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-list-link link" href="./portfolio.html"
+                  >Портфолио</a
                 >
-                  <use href="./images/sprite.svg#icon-smartphone"></use>
-                </svg>
-                +38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-list-link link" href="">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="header-contacts">
+            <ul class="header-contacts-list list">
+              <li class="header-contacts-list-item">
+                <a class="header-mail link" href="mailto:info@devstudio.com">
+                  <svg
+                    class="header-address-icons-svg"
+                    width="16px"
+                    height="11px"
+                  >
+                    <use href="./images/sprite.svg#icon-envelope"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="header-contacts-list-item">
+                <a class="header-phone link" href="tel:+380961111111">
+                  <svg
+                    class="header-address-icons-svg"
+                    width="10px"
+                    height="15px"
+                  >
+                    <use href="./images/sprite.svg#icon-smartphone"></use>
+                  </svg>
+                  +38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -674,6 +681,7 @@
       </form>
     </div>
 
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
