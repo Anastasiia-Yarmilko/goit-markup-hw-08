@@ -373,17 +373,17 @@ img {
   display: block;
 }
 
-.container {
+.header .container {
   padding-right: 10px;
   padding-left: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin: 0 auto;
 }
 
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
+    margin: 0 auto;
   }
 }
 
@@ -393,6 +393,7 @@ img {
     padding-top: 21px;
     padding-bottom: 21px;
     padding-right: 15px;
+    margin: 0 auto;
   }
 }
 
@@ -402,6 +403,7 @@ img {
     padding-top: 24px;
     padding-bottom: 25px;
     padding-left: 15px;
+    margin: 0 auto;
   }
 }
 
