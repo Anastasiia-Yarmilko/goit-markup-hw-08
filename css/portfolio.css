@@ -402,7 +402,8 @@ img {
     max-width: 1200px;
     padding-top: 24px;
     padding-bottom: 25px;
-    padding-left: 15px;
+    padding-left: 215px;
+    padding-right: 215px;
     margin: 0 auto;
   }
 }
@@ -764,6 +765,7 @@ img {
 
 .menu-container {
   position: absolute;
+  z-index: 100;
   top: 60px;
   right: 0;
   width: 100%;
