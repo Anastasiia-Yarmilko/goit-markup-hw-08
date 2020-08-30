@@ -32,26 +32,6 @@
   top: 12%;
 }
 
-@media screen and (max-width: 479px) {
-  .hero-btn-form {
-    width: 100%;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .hero-btn-form {
-    width: 450px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-btn-form {
-    width: 528px;
-  }
-}
-
 .hero-btn-title {
   margin: 0;
   margin-bottom: 30px;
@@ -60,18 +40,6 @@
   font-size: 20px;
   letter-spacing: 0.03em;
   color: $title-light-background-color;
-}
-
-@media screen and (min-width: 480px) {
-  .hero-btn-title {
-    line-height: 1.5;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-btn-title {
-    line-height: 1.15;
-  }
 }
 
 .close-form-svg {
@@ -215,12 +183,13 @@
 .checkbox-div {
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .checkbox-text {
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: $text-light-background-color;
   display: flex;
@@ -283,5 +252,38 @@
 
   &:focus {
     outline: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hero-btn-form {
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .hero-btn-form {
+    width: 450px;
+  }
+
+  .hero-btn-title {
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-btn-form {
+    width: 528px;
+  }
+
+  .hero-btn-title {
+    line-height: 1.15;
+  }
+
+  .checkbox-text {
+    font-size: 14px;
+    line-height: 1.71;
   }
 }

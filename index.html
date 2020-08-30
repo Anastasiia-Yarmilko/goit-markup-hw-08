@@ -17,10 +17,22 @@
         <a class="logo link" href="./index.html" lang="en"
           ><span class="logo-blue-word link">Web</span>Studio</a
         >
-        <button type="button" class="menu-btn" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+        <button
+          type="button"
+          class="menu-btn"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        >
           <svg class="btn-icon" width="20px" height="20px">
-            <use class="icon-open" href="./images/sprite.svg#burger-icon-menu"></use>
-            <use class="icon-close" href="./images/sprite.svg#close-icon-menu"></use>
+            <use
+              class="icon-open"
+              href="./images/sprite.svg#burger-icon-menu"
+            ></use>
+            <use
+              class="icon-close"
+              href="./images/sprite.svg#close-icon-menu"
+            ></use>
           </svg>
         </button>
         <div class="menu-container" data-menu>
@@ -48,7 +60,7 @@
                   <svg
                     class="header-address-icons-svg"
                     width="16px"
-                    height="11px"
+                    height="12px"
                   >
                     <use href="./images/sprite.svg#icon-envelope"></use>
                   </svg>
@@ -60,7 +72,7 @@
                   <svg
                     class="header-address-icons-svg"
                     width="10px"
-                    height="15px"
+                    height="16px"
                   >
                     <use href="./images/sprite.svg#icon-smartphone"></use>
                   </svg>
@@ -75,10 +87,14 @@
           <nav class="navigation">
             <ul class="navigation-list list">
               <li class="navigation-list-item current-main">
-                <a class="navigation-list-link link" href="./index.html">Студия</a>
+                <a class="navigation-list-link link" href="./index.html"
+                  >Студия</a
+                >
               </li>
               <li class="navigation-list-item">
-                <a class="navigation-list-link link" href="./portfolio.html">Портфолио</a>
+                <a class="navigation-list-link link" href="./portfolio.html"
+                  >Портфолио</a
+                >
               </li>
               <li class="navigation-list-item">
                 <a class="navigation-list-link link" href="">Контакты</a>
@@ -89,16 +105,24 @@
             <ul class="header-contacts-list list">
               <li class="header-contacts-list-item">
                 <a class="header-mail link" href="mailto:info@devstudio.com">
-                  <svg class="header-address-icons-svg" width="14px" height="10px">
-                    <use href="./images/sprite.svg#icon-envelope"></use>
-                  </svg>info@devstudio.com</a>
+                  <svg
+                    class="header-address-icons-svg"
+                    width="16px"
+                    height="11px"
+                  >
+                    <use href="./images/sprite.svg#icon-envelope"></use></svg>info@devstudio.com</a>
               </li>
               <li class="header-contacts-list-item">
                 <a class="header-phone link" href="tel:+380961111111">
-                  <svg class="header-address-icons-svg" width="10px" height="15px">
+                  <svg
+                    class="header-address-icons-svg"
+                    width="11px"
+                    height="15px"
+                  >
                     <use href="./images/sprite.svg#icon-smartphone"></use>
                   </svg>
-                  +38 096 111 11 11</a>
+                  +38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -108,7 +132,7 @@
     <main class="main">
       <!-- Секция герой -->
       <section class="hero-section overlay">
-        <div class="header-container">
+        <div>
           <h1 class="hero-header">
             Эффективные решения<br />для вашего бизнеса
           </h1>
@@ -183,8 +207,9 @@
           <h2 class="title">Чем мы занимаемся</h2>
           <ul class="operations-list list">
             <li class="operations-list-item">
-              <img class="operations-list-item-img" 
-                alt="Фото человека, пишущего код приложения" 
+              <img
+                class="operations-list-item-img"
+                alt="Фото человека, пишущего код приложения"
                 src="./images/what-we-do/what-we-do-1.jpg"
                 srcset="
                   ./images/what-we-do/what-we-do-1@2x.jpg 2x,
@@ -192,7 +217,7 @@
                 "
                 width="370"
                 height="294"
-                />
+              />
               <p class="subtitle">Десктопные приложения</p>
             </li>
             <li class="operations-list-item">
@@ -206,7 +231,7 @@
                 "
                 width="370"
                 height="294"
-                />
+              />
               <p class="subtitle">Мобильные приложения</p>
             </li>
             <li class="operations-list-item">
@@ -220,7 +245,7 @@
                 "
                 width="370"
                 height="294"
-                />
+              />
               <p class="subtitle">Дизайнерские решения</p>
             </li>
           </ul>
@@ -233,28 +258,44 @@
           <ul class="team-list list">
             <li class="team-list-items">
               <picture>
-                <source srcset="
-                    ./images/our-team/mobile/team-mobile-1.jpg 1x,
+                <source
+                  srcset="
+                    ./images/our-team/mobile/team-mobile-1.jpg    1x,
                     ./images/our-team/mobile/team-mobile-1@2x.jpg 2x,
                     ./images/our-team/mobile/team-mobile-1@3x.jpg 3x
-                  " 
-                class="team-list-item-img" alt="Фото Игорь Демьяненко" media="(min-width:480px)" />
-              
-                <source srcset="
-                    ./images/our-team/tablet/team-tablet-1.jpg 1x,
+                  "
+                  class="team-list-item-img"
+                  alt="Фото Игорь Демьяненко"
+                  media="(max-width: 767px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/our-team/tablet/team-tablet-1.jpg    1x,
                     ./images/our-team/tablet/team-tablet-1@2x.jpg 2x,
                     ./images/our-team/tablet/team-tablet-1@3x.jpg 3x
-                  " 
-                class="team-list-item-img" alt="Фото Игорь Демьяненко" media="(min-width:768px)" />
-              
-                <source srcset="
-                    ./images/our-team/desktop/team-desktop-1.jpg 1x,
+                  "
+                  class="team-list-item-img"
+                  alt="Фото Игорь Демьяненко"
+                  media="(max-width:1199px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/our-team/desktop/team-desktop-1.jpg    1x,
                     ./images/our-team/desktop/team-desktop-1@2x.jpg 2x,
                     ./images/our-team/desktop/team-desktop-1@3x.jpg 3x
-                  " 
-                class="team-list-item-img" alt="Фото Игорь Демьяненко" media="(min-width:1200px)" />
+                  "
+                  class="team-list-item-img"
+                  alt="Фото Игорь Демьяненко"
+                  media="(min-width:1200px)"
+                />
 
-                <img src="./images/our-team/desktop/team-desktop-1.jpg" alt="Фото Игорь Демьяненко" />
+                <img
+                  src="./images/our-team/desktop/team-desktop-1.jpg"
+                  alt="Фото Игорь Демьяненко"
+                  max-width="100%"
+                />
               </picture>
 
               <h3 class="team-member">Игорь Демьяненко</h3>
@@ -316,25 +357,44 @@
             </li>
             <li class="team-list-items">
               <picture>
-                <source srcset="
-                  ./images/our-team/mobile/team-mobile-2.jpg 1x,
-                  ./images/our-team/mobile/team-mobile-2@2x.jpg 2x,
-                  ./images/our-team/mobile/team-mobile-2@3x.jpg 3x
-                " class="team-list-item-img" alt="Фото Ольги Репиной" media="(min-width:480px)" />
-              
-                <source srcset="
-                  ./images/our-team/tablet/team-tablet-2.jpg 1x,
-                  ./images/our-team/tablet/team-tablet-2@2x.jpg 2x,
-                  ./images/our-team/tablet/team-tablet-2@3x.jpg 3x
-                " class="team-list-item-img" alt="Фото Фото Ольги Репиной" media="(min-width:768px)" />
-              
-                <source srcset="
-                  ./images/our-team/desktop/team-desktop-2.jpg 1x,
-                  ./images/our-team/desktop/team-desktop-2@2x.jpg 2x,
-                  ./images/our-team/desktop/team-desktop-2@3x.jpg 3x
-                " class="team-list-item-img" alt="Фото Фото Ольги Репиной" media="(min-width:1200px)" />
-              
-                <img src="./images/our-team/mdesktop/team-desktop-2.jpg" alt="Фото Фото Ольги Репиной" />
+                <source
+                  srcset="
+                    ./images/our-team/mobile/team-mobile-2.jpg    1x,
+                    ./images/our-team/mobile/team-mobile-2@2x.jpg 2x,
+                    ./images/our-team/mobile/team-mobile-2@3x.jpg 3x
+                  "
+                  class="team-list-item-img"
+                  alt="Фото Ольги Репиной"
+                  media="(max-width: 767px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/our-team/tablet/team-tablet-2.jpg    1x,
+                    ./images/our-team/tablet/team-tablet-2@2x.jpg 2x,
+                    ./images/our-team/tablet/team-tablet-2@3x.jpg 3x
+                  "
+                  class="team-list-item-img"
+                  alt="Фото Фото Ольги Репиной"
+                  media="(max-width:1199px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/our-team/desktop/team-desktop-2.jpg    1x,
+                    ./images/our-team/desktop/team-desktop-2@2x.jpg 2x,
+                    ./images/our-team/desktop/team-desktop-2@3x.jpg 3x
+                  "
+                  class="team-list-item-img"
+                  alt="Фото Фото Ольги Репиной"
+                  media="(min-width:1200px)"
+                />
+
+                <img
+                  src="./images/our-team/mdesktop/team-desktop-2.jpg"
+                  alt="Фото Фото Ольги Репиной"
+                  max-width="100%"
+                />
               </picture>
               <h3 class="team-member">Ольга Репина</h3>
               <p class="team-position" lang="en">Frontend Developer</p>
@@ -395,25 +455,44 @@
             </li>
             <li class="team-list-items">
               <picture>
-                <source srcset="
-                  ./images/our-team/mobile/team-mobile-3.jpg 1x,
-                  ./images/our-team/mobile/team-mobile-3@2x.jpg 2x,
-                  ./images/our-team/mobile/team-mobile-3@3x.jpg 3x
-                " class="team-list-item-img" alt="Фото Николай Тарасов" media="(min-width:480px)" />
+                <source
+                  srcset="
+                    ./images/our-team/mobile/team-mobile-3.jpg    1x,
+                    ./images/our-team/mobile/team-mobile-3@2x.jpg 2x,
+                    ./images/our-team/mobile/team-mobile-3@3x.jpg 3x
+                  "
+                  class="team-list-item-img"
+                  alt="Фото Николай Тарасов"
+                  media="(max-width: 767px)"
+                />
 
-                <source srcset="
-                  ./images/our-team/tablet/team-tablet-3.jpg 1x,
-                  ./images/our-team/tablet/team-tablet-3@2x.jpg 2x,
-                  ./images/our-team/tablet/team-tablet-3@3x.jpg 3x
-                " class="team-list-item-img" alt="Фото Фото Николай Тарасов" media="(min-width:768px)" />
-              
-                <source srcset="
-                  ./images/our-team/desktop/team-desktop-3.jpg 1x,
-                  ./images/our-team/desktop/team-desktop-3@2x.jpg 2x,
-                  ./images/our-team/desktop/team-desktop-3@3x.jpg 3x
-                " class="team-list-item-img" alt="Фото Фото Николай Тарасов" media="(min-width:1200px)" />
-              
-                <img src="./images/our-team/desktop/team-desktop-2.jpg" alt="Фото Фото Николай Тарасов" />
+                <source
+                  srcset="
+                    ./images/our-team/tablet/team-tablet-3.jpg    1x,
+                    ./images/our-team/tablet/team-tablet-3@2x.jpg 2x,
+                    ./images/our-team/tablet/team-tablet-3@3x.jpg 3x
+                  "
+                  class="team-list-item-img"
+                  alt="Фото Фото Николай Тарасов"
+                  media="(max-width:1199px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/our-team/desktop/team-desktop-3.jpg    1x,
+                    ./images/our-team/desktop/team-desktop-3@2x.jpg 2x,
+                    ./images/our-team/desktop/team-desktop-3@3x.jpg 3x
+                  "
+                  class="team-list-item-img"
+                  alt="Фото Фото Николай Тарасов"
+                  media="(min-width:1200px)"
+                />
+
+                <img
+                  src="./images/our-team/desktop/team-desktop-2.jpg"
+                  alt="Фото Фото Николай Тарасов"
+                  max-width="100%"
+                />
               </picture>
               <h3 class="team-member">Николай Тарасов</h3>
               <p class="team-position" lang="en">Marketing</p>
@@ -474,34 +553,44 @@
             </li>
             <li class="team-list-items">
               <picture>
-                <source srcset="
-                  ./images/our-team/mobile/team-mobile-4.jpg 1x,
-                  ./images/our-team/mobile/team-mobile-4@2x.jpg 2x,
-                  ./images/our-team/mobile/team-mobile-4@3x.jpg 3x
-                  " 
-                  class="team-list-item-img" 
-                  alt="Фото Михаил Ермаков" 
-                  media="(min-width:480px)" />
-              
-                <source srcset="
-                  ./images/our-team/tablet/team-tablet-4.jpg 1x,
-                  ./images/our-team/tablet/team-tablet-4@2x.jpg 2x,
-                  ./images/our-team/tablet/team-tablet-4@3x.jpg 3x
-                " 
-                class="team-list-item-img" 
-                alt="Фото Фото Михаил Ермаков" 
-                media="(min-width:768px)" />
-              
-                <source srcset="
-                  ./images/our-team/desktop/team-desktop-4.jpg 1x,
-                  ./images/our-team/desktop/team-desktop-4@2x.jpg 2x,
-                  ./images/our-team/desktop/team-desktop-4@3x.jpg 3x
-                " 
-                class="team-list-item-img" 
-                alt="Фото Фото Михаил Ермаков" 
-                media="(min-width:1200px)" />
-              
-                <img src="./images/our-team/desktop/team-desktop-4.jpg" alt="Фото Фото Михаил Ермаков" />
+                <source
+                  srcset="
+                    ./images/our-team/mobile/team-mobile-4.jpg    1x,
+                    ./images/our-team/mobile/team-mobile-4@2x.jpg 2x,
+                    ./images/our-team/mobile/team-mobile-4@3x.jpg 3x
+                  "
+                  class="team-list-item-img"
+                  alt="Фото Михаил Ермаков"
+                  media="(max-width: 767px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/our-team/tablet/team-tablet-4.jpg    1x,
+                    ./images/our-team/tablet/team-tablet-4@2x.jpg 2x,
+                    ./images/our-team/tablet/team-tablet-4@3x.jpg 3x
+                  "
+                  class="team-list-item-img"
+                  alt="Фото Фото Михаил Ермаков"
+                  media="(max-width:1199px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/our-team/desktop/team-desktop-4.jpg    1x,
+                    ./images/our-team/desktop/team-desktop-4@2x.jpg 2x,
+                    ./images/our-team/desktop/team-desktop-4@3x.jpg 3x
+                  "
+                  class="team-list-item-img"
+                  alt="Фото Фото Михаил Ермаков"
+                  media="(min-width:1200px)"
+                />
+
+                <img
+                  src="./images/our-team/desktop/team-desktop-4.jpg"
+                  alt="Фото Фото Михаил Ермаков"
+                  max-width="100%"
+                />
               </picture>
               <h3 class="team-member">Михаил Ермаков</h3>
               <p class="team-position" lang="en">UI Designer</p>
@@ -564,8 +653,8 @@
         </div>
       </section>
 
-<!-- Постоянные клиенты -->
-      <!-- <section class="clients">
+      <!-- Постоянные клиенты -->
+      <section class="clients">
         <div class="container">
           <h2 class="title">Постоянные клиенты</h2>
           <ul class="clients-list list">
@@ -614,9 +703,9 @@
           </ul>
         </div>
       </section>
-    </main> -->
+    </main>
     <!-- Подвал -->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="footer-address-container">
           <a class="logo link" href="./index.html" lang="en">
@@ -710,7 +799,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <!-- Модальное окно -->
     <div data-modal class="backdrop is-hidden">
       <form action="#" class="hero-btn-form">
