@@ -9,7 +9,20 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
+  .clients-list {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .clients-list-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
 
     .clients-list-item:nth-child(odd) {
         margin-right: 30px;
