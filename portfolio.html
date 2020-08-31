@@ -13,7 +13,7 @@
 
   <body>
     <!-- Шапка сайта -->
-    <header class="header">
+    <header class="header portfolio-header">
       <div class="container">
         <a class="logo link" href="./index.html" lang="en"
           ><span class="logo-blue-word link">Web</span>Studio</a
@@ -162,11 +162,43 @@
           <ul class="portfolio-examples-list list">
             <li class="portfolio-examples-list-item">
               <div class="portfolio-image">
-                <img
-                  class="portfolio-examples-image"
-                  src="./images/portfolio/imgportfolio.jpg"
-                  alt="Фото ноутбука с открытой страницей сайта Технокряк"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/mobile/portfolio-mobile-1.jpg 1x,
+                      ./images/portfolio/mobile/portfolio-mobile-1@2x.jpg 2x,
+                    "
+                    class="portfolio-examples-image"
+                    alt="Фото ноутбука с открытой страницей сайта Технокряк"
+                    media="(max-width: 767px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/tablet/portfolio-tablet-1.jpg 1x,
+                    ./images/portfolio/tablet/portfolio-tablet-1@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Фото ноутбука с открытой страницей сайта Технокряк"
+                    media="(max-width:1199px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/desktop/portfolio-desktop-1.jpg 1x,
+                    ./images/portfolio/desktop/portfolio-desktop-1@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Фото ноутбука с открытой страницей сайта Технокряк"
+                    media="(min-width:1200px)"
+                  />
+                
+                  <img
+                    src="./images/portfolio/desktop/portfolio-desktop-1.jpg"
+                    alt="Фото ноутбука с открытой страницей сайта Технокряк"
+                    max-width="100%"
+                  />
+                </picture>
                 <p class="overlay-portfolio-description">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
@@ -180,11 +212,43 @@
             </li>
             <li class="portfolio-examples-list-item">
               <div class="portfolio-image">
-                <img
-                  class="portfolio-examples-image"
-                  src="./images/portfolio/imgportfolio-1.jpg"
-                  alt="Изображение постера с двумя баскетболистами"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/mobile/portfolio-mobile-2.jpg 1x,
+                      ./images/portfolio/mobile/portfolio-mobile-2@2x.jpg 2x,
+                    "
+                    class="portfolio-examples-image"
+                    alt="Изображение постера с двумя баскетболистами"
+                    media="(max-width: 767px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/tablet/portfolio-tablet-2.jpg 1x,
+                    ./images/portfolio/tablet/portfolio-tablet-2@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Изображение постера с двумя баскетболистами"
+                    media="(max-width:1199px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/desktop/portfolio-desktop-2.jpg 1x,
+                    ./images/portfolio/desktop/portfolio-desktop-2@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Изображение постера с двумя баскетболистами"
+                    media="(min-width:1200px)"
+                  />
+                
+                  <img
+                    src="./images/portfolio/desktop/portfolio-desktop-2.jpg"
+                    alt="Изображение постера с двумя баскетболистами"
+                    max-width="100%"
+                  />
+                </picture>
                 <p class="overlay-portfolio-description">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Ullam voluptatibus quam ad aliquam perferendis, officia rem,
@@ -193,18 +257,50 @@
               </div>
               <div class="portfolio-item-description">
                 <h2 class="portfolio-subtitle">
-                  Постер <span lang="en">New Orlean vs Golden Star</span>
+                  Постер New Orlean vs Golden Star
                 </h2>
                 <p class="portfolio-type">Дизайн</p>
               </div>
             </li>
             <li class="portfolio-examples-list-item">
               <div class="portfolio-image">
-                <img
-                  class="portfolio-examples-image"
-                  src="./images/portfolio/imgportfolio-2.jpg"
-                  alt="Логотип ресторана Сифуд"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/mobile/portfolio-mobile-3.jpg 1x,
+                      ./images/portfolio/mobile/portfolio-mobile-3@2x.jpg 2x,
+                    "
+                    class="portfolio-examples-image"
+                    alt="Логотип ресторана Сифуд"
+                    media="(max-width: 767px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/tablet/portfolio-tablet-3.jpg 1x,
+                    ./images/portfolio/tablet/portfolio-tablet-3@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Логотип ресторана Сифуд"
+                    media="(max-width:1199px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/desktop/portfolio-desktop-3.jpg 1x,
+                    ./images/portfolio/desktop/portfolio-desktop-3@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Логотип ресторана Сифуд"
+                    media="(min-width:1200px)"
+                  />
+                
+                  <img
+                    src="./images/portfolio/desktop/portfolio-desktop-3.jpg"
+                    alt="Логотип ресторана Сифуд"
+                    max-width="100%"
+                  />
+                </picture>
                 <p class="overlay-portfolio-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
                   laboriosam deleniti debitis asperiores quia ipsa, dignissimos
@@ -220,11 +316,43 @@
             </li>
             <li class="portfolio-examples-list-item">
               <div class="portfolio-image">
-                <img
-                  class="portfolio-examples-image"
-                  src="./images/portfolio/imgportfolio-3.jpg"
-                  alt="Фото черных наушников"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/mobile/portfolio-mobile-4.jpg 1x,
+                      ./images/portfolio/mobile/portfolio-mobile-4@2x.jpg 2x,
+                    "
+                    class="portfolio-examples-image"
+                    alt="Фото черных наушников"
+                    media="(max-width: 767px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/tablet/portfolio-tablet-4.jpg 1x,
+                    ./images/portfolio/tablet/portfolio-tablet-4@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Фото черных наушников"
+                    media="(max-width:1199px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/desktop/portfolio-desktop-4.jpg 1x,
+                    ./images/portfolio/desktop/portfolio-desktop-4@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Фото черных наушников"
+                    media="(min-width:1200px)"
+                  />
+                
+                  <img
+                    src="./images/portfolio/desktop/portfolio-desktop-4.jpg"
+                    alt="Фото черных наушников"
+                    max-width="100%"
+                  />
+                </picture>
                 <p class="overlay-portfolio-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Tempora dignissimos consequuntur hic beatae provident. Velit
@@ -240,11 +368,43 @@
             </li>
             <li class="portfolio-examples-list-item">
               <div class="portfolio-image">
-                <img
-                  class="portfolio-examples-image"
-                  src="./images/portfolio/imgportfolio-4.jpg"
-                  alt="Фото двух коробок: белого и светло-коричневого цвета"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/mobile/portfolio-mobile-5.jpg 1x,
+                      ./images/portfolio/mobile/portfolio-mobile-5@2x.jpg 2x,
+                    "
+                    class="portfolio-examples-image"
+                    alt="Фото двух коробок: белого и светло-коричневого цвета"
+                    media="(max-width: 767px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/tablet/portfolio-tablet-5.jpg 1x,
+                    ./images/portfolio/tablet/portfolio-tablet-5@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Фото двух коробок: белого и светло-коричневого цвета"
+                    media="(max-width:1199px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/desktop/portfolio-desktop-5.jpg 1x,
+                    ./images/portfolio/desktop/portfolio-desktop-5@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Фото двух коробок: белого и светло-коричневого цвета"
+                    media="(min-width:1200px)"
+                  />
+                
+                  <img
+                    src="./images/portfolio/desktop/portfolio-desktop-5.jpg"
+                    alt="Фото двух коробок: белого и светло-коричневого цвета"
+                    max-width="100%"
+                  />
+                </picture>
                 <p class="overlay-portfolio-description">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Numquam alias repellat harum consequatur unde dolorem rem est?
@@ -257,11 +417,43 @@
             </li>
             <li class="portfolio-examples-list-item">
               <div class="portfolio-image">
-                <img
-                  class="portfolio-examples-image"
-                  src="./images/portfolio/imgportfolio-5.jpg"
-                  alt="Фото монитора"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/mobile/portfolio-mobile-6.jpg 1x,
+                      ./images/portfolio/mobile/portfolio-mobile-6@2x.jpg 2x,
+                    "
+                    class="portfolio-examples-image"
+                    alt="Фото монитора"
+                    media="(max-width: 767px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/tablet/portfolio-tablet-6.jpg 1x,
+                    ./images/portfolio/tablet/portfolio-tablet-6@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Фото монитора"
+                    media="(max-width:1199px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/desktop/portfolio-desktop-6.jpg 1x,
+                    ./images/portfolio/desktop/portfolio-desktop-6@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Фото монитора"
+                    media="(min-width:1200px)"
+                  />
+                
+                  <img
+                    src="./images/portfolio/desktop/portfolio-desktop-6.jpg"
+                    alt="Фото монитора"
+                    max-width="100%"
+                  />
+                </picture>
                 <p class="overlay-portfolio-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                   odio, cumque consectetur odit, officia aspernatur sint
@@ -277,11 +469,43 @@
             </li>
             <li class="portfolio-examples-list-item">
               <div class="portfolio-image">
-                <img
-                  class="portfolio-examples-image"
-                  src="./images/portfolio/imgportfolio-6.jpg"
-                  alt="Фото раскрытого журнала Лимитед Эдишн"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/mobile/portfolio-mobile-7.jpg 1x,
+                      ./images/portfolio/mobile/portfolio-mobile-7@2x.jpg 2x,
+                    "
+                    class="portfolio-examples-image"
+                    alt="Фото раскрытого журнала Лимитед Эдишн"
+                    media="(max-width: 767px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/tablet/portfolio-tablet-7.jpg 1x,
+                    ./images/portfolio/tablet/portfolio-tablet-7@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Фото раскрытого журнала Лимитед Эдишн"
+                    media="(max-width:1199px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/desktop/portfolio-desktop-7.jpg 1x,
+                    ./images/portfolio/desktop/portfolio-desktop-7@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Фото раскрытого журнала Лимитед Эдишн"
+                    media="(min-width:1200px)"
+                  />
+                
+                  <img
+                    src="./images/portfolio/desktop/portfolio-desktop-7.jpg"
+                    alt="Фото раскрытого журнала Лимитед Эдишн"
+                    max-width="100%"
+                  />
+                </picture>
                 <p class="overlay-portfolio-description">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Aliquam delectus ipsum consectetur autem assumenda, nobis
@@ -297,11 +521,43 @@
             </li>
             <li class="portfolio-examples-list-item">
               <div class="portfolio-image">
-                <img
-                  class="portfolio-examples-image"
-                  src="./images/portfolio/imgportfolio-7.jpg"
-                  alt="Изображение белой бирки с логотипом проекта ЛАБ"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/mobile/portfolio-mobile-8.jpg 1x,
+                      ./images/portfolio/mobile/portfolio-mobile-8@2x.jpg 2x,
+                    "
+                    class="portfolio-examples-image"
+                    alt="Изображение белой бирки с логотипом проекта ЛАБ"
+                    media="(max-width: 767px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/tablet/portfolio-tablet-8.jpg 1x,
+                    ./images/portfolio/tablet/portfolio-tablet-8@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Изображение белой бирки с логотипом проекта ЛАБ"
+                    media="(max-width:1199px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/desktop/portfolio-desktop-8.jpg 1x,
+                    ./images/portfolio/desktop/portfolio-desktop-8@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Изображение белой бирки с логотипом проекта ЛАБ"
+                    media="(min-width:1200px)"
+                  />
+                
+                  <img
+                    src="./images/portfolio/desktop/portfolio-desktop-8.jpg"
+                    alt="Изображение белой бирки с логотипом проекта ЛАБ"
+                    max-width="100%"
+                  />
+                </picture>
                 <p class="overlay-portfolio-description">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Molestiae vero ratione beatae! Placeat dolorum minima totam
@@ -317,11 +573,43 @@
             </li>
             <li class="portfolio-examples-list-item">
               <div class="portfolio-image">
-                <img
-                  class="portfolio-examples-image"
-                  src="./images/portfolio/imgportfolio-8.jpg"
-                  alt="Фото открытого ноутбука"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/mobile/portfolio-mobile-9.jpg 1x,
+                      ./images/portfolio/mobile/portfolio-mobile-9@2x.jpg 2x,
+                    "
+                    class="portfolio-examples-image"
+                    alt="Фото открытого ноутбука"
+                    media="(max-width: 767px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/tablet/portfolio-tablet-9.jpg 1x,
+                    ./images/portfolio/tablet/portfolio-tablet-9@2x.jpg 2x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Фото открытого ноутбука"
+                    media="(max-width:1199px)"
+                  />
+                
+                  <source
+                    srcset="
+                    ./images/portfolio/desktop/portfolio-desktop-9@2x.jpg 2x,
+                    ./images/portfolio/desktop/portfolio-desktop-9.jpg 1x,
+                  "
+                    class="portfolio-examples-image"
+                    alt="Фото открытого ноутбука"
+                    media="(min-width:1200px)"
+                  />
+                
+                  <img
+                    src="./images/portfolio/mobile/portfolio-mobile-9.jpg"
+                    alt="Фото открытого ноутбука"
+                    max-width="100%"
+                  />
+                </picture>
                 <p class="overlay-portfolio-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Recusandae itaque cumque quis, quae quia ullam nisi distinctio
