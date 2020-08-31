@@ -17,7 +17,7 @@
         font-family: $main-font;
         font-weight: bold;
         font-size: 18px;
-        line-height: 36px;
+        line-height: 2;
         letter-spacing: 0.06em;
         white-space: nowrap;
         overflow: hidden;
@@ -146,6 +146,22 @@
         transform: translatey(0);
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .overlay-portfolio-description {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 15px;
+        line-height: 1.17;
+    }
+
+    .portfolio-subtitle {
+        font-size: 16px;
+        line-height: 1.87;
     }
 }
 
